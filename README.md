@@ -53,101 +53,101 @@ pip install .
 
 ### Initialize the Config
 ```bash
-cloudorchestrator initialize
+CloudOrchestrator initialize
 ```
 
 ### Add AWS Account
 ```bash
-cloudorchestrator add-account
+CloudOrchestrator add-account
 ```
 
 ### EC2
 ```bash
-cloudorchestrator ec2 start <instance_name>
-cloudorchestrator ec2 stop <instance_name>
-cloudorchestrator ec2 ssh <instance_name> <command>
+CloudOrchestrator ec2 start <instance_name>
+CloudOrchestrator ec2 stop <instance_name>
+CloudOrchestrator ec2 ssh <instance_name> <command>
 ```
 
 ### ECR
 ```bash
-cloudorchestrator ecr-ls
-cloudorchestrator ecr-create <repository_name>
-cloudorchestrator ecr-delete <repository_name>
-cloudorchestrator ecr-describe <repository_name>
-cloudorchestrator ecr-uri <repository_name>
+CloudOrchestrator ecr-ls
+CloudOrchestrator ecr-create <repository_name>
+CloudOrchestrator ecr-delete <repository_name>
+CloudOrchestrator ecr-describe <repository_name>
+CloudOrchestrator ecr-uri <repository_name>
 ```
 
 ### S3
 ```bash
-cloudorchestrator s3-ls
-cloudorchestrator s3-create <bucket_name>
-cloudorchestrator s3-delete <bucket_name>
+CloudOrchestrator s3-ls
+CloudOrchestrator s3-create <bucket_name>
+CloudOrchestrator s3-delete <bucket_name>
 ```
 
 ### RDS
 ```bash
-cloudorchestrator rds start <db_instance_identifier>
-cloudorchestrator rds stop <db_instance_identifier>
-cloudorchestrator rds-ls
+CloudOrchestrator rds start <db_instance_identifier>
+CloudOrchestrator rds stop <db_instance_identifier>
+CloudOrchestrator rds-ls
 ```
 
 ### Docker
 ```bash
-cloudorchestrator docker ls
-cloudorchestrator docker ps
-cloudorchestrator docker stop <container_id>
-cloudorchestrator docker sh <container_id>
-cloudorchestrator docker run <port1> <port2> <image_name>
+CloudOrchestrator docker ls
+CloudOrchestrator docker ps
+CloudOrchestrator docker stop <container_id>
+CloudOrchestrator docker sh <container_id>
+CloudOrchestrator docker run <port1> <port2> <image_name>
 ```
 
 ### SNS
 ```bash
-cloudorchestrator sns list
-cloudorchestrator sns create <topic_name>
-cloudorchestrator sns delete <topic_arn>
+CloudOrchestrator sns list
+CloudOrchestrator sns create <topic_name>
+CloudOrchestrator sns delete <topic_arn>
 ```
 
 ### IAM
 ```bash
-cloudorchestrator iam list
-cloudorchestrator iam create <user_name>
-cloudorchestrator iam delete <user_name>
+CloudOrchestrator iam list
+CloudOrchestrator iam create <user_name>
+CloudOrchestrator iam delete <user_name>
 ```
 
 ### CloudWatch
 ```bash
-cloudorchestrator cloudwatch list
-cloudorchestrator cloudwatch put <namespace> <metric_name> <value>
+CloudOrchestrator cloudwatch list
+CloudOrchestrator cloudwatch put <namespace> <metric_name> <value>
 ```
 
 ### DynamoDB
 ```bash
-cloudorchestrator dynamodb list
-cloudorchestrator dynamodb create <table_name> <key_schema> <attribute_definitions> <provisioned_throughput>
-cloudorchestrator dynamodb delete <table_name>
+CloudOrchestrator dynamodb list
+CloudOrchestrator dynamodb create <table_name> <key_schema> <attribute_definitions> <provisioned_throughput>
+CloudOrchestrator dynamodb delete <table_name>
 ```
 
 ### SSM
 ```bash
-cloudorchestrator ssm list
-cloudorchestrator ssm get <name>
-cloudorchestrator ssm put <name> <value> <type>
+CloudOrchestrator ssm list
+CloudOrchestrator ssm get <name>
+CloudOrchestrator ssm put <name> <value> <type>
 ```
 
 ### ELB
 ```bash
-cloudorchestrator elb list
-cloudorchestrator elb create <load_balancer_name> <listeners> <availability_zones>
-cloudorchestrator elb delete <load_balancer_name>
+CloudOrchestrator elb list
+CloudOrchestrator elb create <load_balancer_name> <listeners> <availability_zones>
+CloudOrchestrator elb delete <load_balancer_name>
 ```
 
 ### Deploy
 ```bash
-cloudorchestrator deploy <profile_name> <resource_name> <folder_path>
+CloudOrchestrator deploy <profile_name> <resource_name> <folder_path>
 ```
 
 ### Tag
 ```bash
-cloudorchestrator <tag_keyword> ls
+CloudOrchestrator <tag_keyword> ls
 ```
 
