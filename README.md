@@ -44,9 +44,7 @@ CloudOrchestrator is designed to be your go-to tool for cloud and container mana
 ## Installation
 
 ```bash
-pip install boto3
-pip install paramiko
-pip install .
+pip install CloudOrchestrator
 ```
 
 ## Usage
