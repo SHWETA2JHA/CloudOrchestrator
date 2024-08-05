@@ -49,8 +49,8 @@ def create_and_deploy_algorithm(profile, resource_name, folder_name):
     create_lambda_function(lambda_client, resource_name, resource_name, aws_account_id, aws_region)
     print(f'Successfully created and deployed {resource_name}')
     # Update config file with new tag
-    current_tag = config['deploy']['kaiznn']['algorithm']['1d']['tag']
+    current_tag = config['deploy']['algo']['algorithm']['algo_name']['tag']
     major, minor = map(int, current_tag[1:].split('.'))
     new_tag = f'v{major}.{minor + 1}'
-    config['deploy']['kaiznn']['algorithm']['1d']['tag'] = new_tag
+    config['deploy']['algo']['algorithm']['algo_name']['tag'] = new_tag
     save_config(config)
